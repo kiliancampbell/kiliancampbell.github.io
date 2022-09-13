@@ -1,3 +1,2 @@
 ## Azores Blue Whale Distribution
-![alt text](https://github.com/kiliancampbell/kiliancampbell.github.io/blob/main/azores_blue_whale_spatial_dis.png)
-<img src = 'https://github.com/kiliancampbell/kiliancampbell.github.io/blob/main/azores_blue_whale_spatial_dis.png' width ="100">
+<img src = 'https://github.com/kiliancampbell/kiliancampbell.github.io/blob/main/azores_blue_whale_spatial_dis.png' width ="1000">
