@@ -1,4 +1,6 @@
-pacman::p_load(dplyr,
+pacman::p_load
+        (
+        dplyr,
         tidyverse,
         ggplot2,
         tidyr, 
@@ -7,7 +9,8 @@ pacman::p_load(dplyr,
         ggmap,
         scales,
         ggmap,
-        RColorBrewer)
+        RColorBrewer
+        )
 
 map_data <- read.csv("C:\\Users\\Kilia\\OneDrive\\Documents\\RStudio Projects\\blue_whale.csv")
 
@@ -51,14 +54,14 @@ ggmap(mapped_whale) +
   scale_fill_gradientn(colors = rev(brewer.pal(10, 'Spectral')),
                        labels = comma
                       ) +
-  geom_point (data = map_data, 
-              aes(x = location_long,
-                  y = location_lat,
-                  color = "Whale"
-                 ),
-              fill = 'red',
-              shape = 21,
-              alpha = .2
+  geom_point(data = map_data, 
+             aes(x = location_long,
+                 y = location_lat,
+                 color = "Whale"
+                ),
+             fill = 'red',
+             shape = 21,
+             alpha = .2
              )+
   guides(fill = FALSE, 
          color = guide_legend(
