@@ -23,7 +23,7 @@ which(
         arr.ind = TRUE
      )
 
-class(map_data$tag_local_identifier) = 'integer'
+class(map_data$tag_local_identifier) = 'integer'               #Setting tag_local_identifier as integer and string to learn more about ggmap functionality.
 
 ##MAP
 
@@ -42,7 +42,7 @@ mapped_whale <- get_map(
                        )
 ##Trying contour map
 
-ggmap(mapped_whale) +
+ggmap(mapped_whale)+
   stat_density2d(
                  data = map_data, 
                  aes(
