@@ -59,18 +59,3 @@ ggmap(mapped_whale) +
   theme (legend.key = element_rect(fill = 'white'),axis.title.y = element_blank(), axis.title.x = element_blank()) +
   ggtitle(" Azores Blue Whale Spatial Distribution, 04/2009-07/2016") +
   xlab("Long") + ylab("Lat")
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
