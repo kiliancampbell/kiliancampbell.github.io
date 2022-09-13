@@ -25,9 +25,9 @@ which(
 
 class(map_data$tag_local_identifier) = 'integer'
 
-## MAP (set up Google API as well)
+##MAP
 
-?register_google
+?register_google    #Query to set up google API
 
 mapped_whale <- get_map(
                         location = c(
