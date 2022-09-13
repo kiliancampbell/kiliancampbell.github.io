@@ -25,13 +25,15 @@ which(
 
 class(map_data$tag_local_identifier) = 'integer'               #Setting tag_local_identifier as integer and string to learn more about ggmap functionality.
 
-##MAP
+## MAP
 
 ?register_google    #Query to set up google API
 
+##ggmap call the map within a range specified by paramters.
+
 mapped_whale <- get_map(
-                        location = c(
-                                     lon = mean(map_data$location_long),
+                        location = c(                           
+                                     lon = mean(map_data$location_long),          #Setting the origin (x=0,y=0) as the average (x,y) coordinates of the data set
                                      lat = mean(map_data$location_lat)
                                     ),
                         zoom = 4,
