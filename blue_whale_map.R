@@ -1,16 +1,15 @@
-pacman::p_load
-        (
-        dplyr,
-        tidyverse,
-        ggplot2,
-        tidyr, 
-        readr, 
-        lubridate, 
-        ggmap,
-        scales,
-        ggmap,
-        RColorBrewer
-        )
+pacman::p_load(
+                dplyr,
+                tidyverse,
+                ggplot2,
+                tidyr, 
+                readr, 
+                lubridate, 
+                ggmap,
+                scales,
+                ggmap,
+                RColorBrewer
+              )
 
 map_data <- read.csv("C:\\Users\\Kilia\\OneDrive\\Documents\\RStudio Projects\\blue_whale.csv")
 
@@ -19,8 +18,10 @@ head(map_data)
 colnames(map_data)
 View(map_data)
 
-which(is.na(map_data$location_long), 
-      arr.ind = TRUE)
+which(
+        is.na(map_data$location_long), 
+        arr.ind = TRUE
+     )
 
 class(map_data$tag_local_identifier) = 'integer'
 
