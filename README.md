@@ -1,3 +1,2 @@
 ## Azores Blue Whale Distribution
-![alt text][logo]
-[logo]: azores_blue_whale_spatial_dis.png
+![alt text][[https://github.com/](https://github.com/kiliancampbell/kiliancampbell.github.io/blob/main/azores_blue_whale_spatial_dis.png)
