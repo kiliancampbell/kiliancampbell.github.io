@@ -37,9 +37,10 @@ mapped_whale <- get_map(location = c(lon = mean(map_data$location_long),
 
 ggmap(mapped_whale) +
   stat_density2d(data = map_data, 
-                 aes (x = location_long,
-                      y = location_lat,
-                      fill =  ..level..),
+                 aes(x = location_long,
+                     y = location_lat,
+                     fill =  ..level..
+                    ),
                  bins = 30,
                  h = 3,
                  n = 100,
